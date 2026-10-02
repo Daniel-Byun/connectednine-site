@@ -69,3 +69,8 @@ footer { padding: 32px max(20px, calc((100vw - 1040px) / 2)); border-top: 1px so
   .block { padding-top: 56px; padding-bottom: 56px; }
 }
 .mail { font-size: 20px; font-weight: 600; color: var(--navy); border-bottom: 2px solid var(--accent); }
+.svc { margin: 24px 0 28px; padding: 0; list-style: none; display: grid; gap: 12px; }
+.svc li { padding: 16px 20px; background: #fff; border: 1px solid var(--line); border-radius: 12px; }
+.svc b { display: block; color: var(--navy); }
+.svc span { color: var(--muted); font-size: 15px; }
+.ext { text-decoration: underline; }
