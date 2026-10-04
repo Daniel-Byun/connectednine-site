@@ -9,142 +9,87 @@
   <meta property="og:description" content="경영전략, 마케팅, 앱·웹 기획, 출판, 이커머스를 하나로 연결합니다.">
   <meta property="og:type" content="website">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
-
-  <header class="top" id="top">
-    <a class="logo" href="/">ConnectedNine</a>
-    <nav aria-label="주요 메뉴">
-      <a href="#services">서비스</a>
-      <a href="#about">회사 소개</a>
+  <header class="top">
+    <a class="logo" href="#">ConnectedNine</a>
+    <nav>
+      <a href="#business">사업 영역</a>
+      <a href="#method">일하는 방식</a>
       <a href="#contact">문의</a>
     </nav>
   </header>
 
-  <main id="main">
+  <main>
     <section class="hero">
-      <h1>일을 더 가볍게,<br>커넥티드나인</h1>
-      <p class="sub">경영전략부터 마케팅, 앱·웹 기획까지 함께합니다.</p>
-      <a class="btn" href="#services">서비스 보기</a>
-      <svg class="scroll-cue" width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
-        <path d="M4 7.5 10 13.5 16 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+      <p class="eyebrow">커넥티드나인</p>
+      <h1>흩어진 일을<br>하나로 연결합니다.</h1>
+      <p class="lead">전략을 세우고, 알리고, 만들고, 팝니다. 커넥티드나인은 이 흐름을 끊지 않고 이어서 일합니다.</p>
+      <a class="btn" href="#contact">문의하기</a>
     </section>
 
-    <section id="services" class="services">
-      <h2>서비스</h2>
-
-      <article class="svc-block">
-        <span class="svc-icon" aria-hidden="true">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <path d="M9 4h10l5 5v17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.4"/>
-            <path d="M19 4v5h5" stroke="currentColor" stroke-width="1.4"/>
-            <path d="M11 17h7M11 20.5h4.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-            <path d="M20.5 14.5c1.8.6 3 2 3 3.6 0 2.2-2.2 4-5 4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-            <path d="M17.3 20.1 18.5 22.1 20.5 21.3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </span>
-        <div class="svc-text">
-          <h3>hwp 워드 변환</h3>
-          <p>한글 문서를 워드로 바꿉니다. 설치·계정 없이 무료로 쓸 수 있고, 파일은 보관하지 않습니다.</p>
-          <a class="svc-link" href="https://hwpdoc.connectednine.com" target="_blank" rel="noopener">바로 가기 →</a>
-        </div>
-      </article>
-
-      <article class="svc-block">
-        <span class="svc-icon" aria-hidden="true">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <rect x="4" y="7" width="9" height="13" rx="1.5" stroke="currentColor" stroke-width="1.4"/>
-            <rect x="19" y="12" width="9" height="13" rx="1.5" stroke="currentColor" stroke-width="1.4"/>
-            <path d="M13.5 12.5h5M16.5 10l2.5 2.5-2.5 2.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </span>
-        <div class="svc-text">
-          <h3>DropShare</h3>
-          <p>코드나 QR로 기기 사이에 파일을 보냅니다. 설치·계정 없이 무료로 쓸 수 있고, 파일은 보관하지 않습니다.</p>
-          <a class="svc-link" href="https://dropshare.connectednine.com" target="_blank" rel="noopener">바로 가기 →</a>
-        </div>
-      </article>
-
-      <article class="svc-block">
-        <span class="svc-icon" aria-hidden="true">
-          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-            <path d="M5 7h18a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H15l-5 4.5V20H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.4"/>
-            <circle cx="10.5" cy="13.5" r="1" fill="currentColor"/>
-            <circle cx="15" cy="13.5" r="1" fill="currentColor"/>
-            <circle cx="19.5" cy="13.5" r="1" fill="currentColor"/>
-          </svg>
-        </span>
-        <div class="svc-text">
-          <h3>카카오 AI 매니저</h3>
-          <p>카카오톡 문의·예약 안내를 자동으로 처리하는 매장용 서비스입니다.</p>
-          <a class="svc-link" href="https://kakaoai.connectednine.com" target="_blank" rel="noopener">바로 가기 →</a>
-        </div>
-      </article>
-    </section>
-
-    <section id="about" class="about">
-      <h2>회사 소개</h2>
-      <p class="about-copy">커넥티드나인(ConnectedNine)은 경영전략 컨설팅, 마케팅 대행, 앱·웹 기획, 출판, 이커머스를 함께하는 회사입니다.</p>
-
-      <div id="contact" class="contact">
-        <a class="mail" href="mailto:contact@connectednine.com">contact@connectednine.com</a>
-        <div class="sns">
-          <a href="https://www.instagram.com/connectednine" target="_blank" rel="noopener" aria-label="인스타그램 @connectednine">
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2.5" y="2.5" width="17" height="17" rx="5" stroke="currentColor" stroke-width="1.4"/><circle cx="11" cy="11" r="4.2" stroke="currentColor" stroke-width="1.4"/><circle cx="15.8" cy="6.2" r="1" fill="currentColor"/></svg>
-          </a>
-          <a href="https://www.threads.net/@connectednine" target="_blank" rel="noopener" aria-label="쓰레드 @connectednine">
-            <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M11 3.5c4.5 0 6.8 3 6.8 7.5s-2.3 7.5-6.8 7.5c-3.6 0-5.9-1.9-6.5-4.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M8.5 9.3c1-2 5-2 5.6.6.6 2.6-1 4.4-3.3 4.4-1.6 0-2.8-.8-2.8-2.1 0-1.5 1.6-2.2 3.4-2.2 1.2 0 2.1.3 2.7.7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
-          </a>
-        </div>
+    <section id="business" class="block">
+      <h2>사업 영역</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="num">01</span>
+          <h3>경영전략 컨설팅</h3>
+          <p>사업의 방향과 우선순위를 정리하고, 실행할 수 있는 계획으로 만듭니다.</p>
+        </article>
+        <article class="card">
+          <span class="num">02</span>
+          <h3>마케팅 대행</h3>
+          <p>브랜드의 말투와 채널에 맞춰 콘텐츠를 기획하고 운영합니다.</p>
+        </article>
+        <article class="card">
+          <span class="num">03</span>
+          <h3>앱·웹 기획</h3>
+          <p>화면과 기능을 사용자 관점에서 설계해 개발로 바로 넘길 수 있게 정리합니다.</p>
+        </article>
+        <article class="card">
+          <span class="num">04</span>
+          <h3>출판</h3>
+          <p>기획부터 원고 구성, 편집 방향까지 한 권의 책이 되도록 돕습니다.</p>
+        </article>
+        <article class="card">
+          <span class="num">05</span>
+          <h3>이커머스</h3>
+          <p>상품 구성과 상세페이지, 판매 전략을 하나의 흐름으로 설계합니다.</p>
+        </article>
       </div>
+    </section>
+
+    <section id="services" class="block alt">
+      <h2>운영 중인 서비스</h2>
+      <p class="lead small">설치 없이 브라우저에서 바로 쓰는 웹 도구와 서비스를 직접 만들어 운영하고 있습니다.</p>
+      <ul class="svc">
+        <li><b>hwp 워드 변환</b><span>한글 문서를 워드로 바꿔 주는 무료 도구</span></li>
+        <li><b>DropShare</b><span>코드나 QR로 기기 사이에 파일을 보내는 무료 도구</span></li>
+        <li><b>카카오 AI 매니저</b><span>카카오톡 문의와 예약 안내를 자동으로 처리하는 매장용 서비스</span></li>
+      </ul>
+      <p><a class="btn" href="https://connectednine.com/">서비스 보러 가기</a></p>
+    </section>
+
+    <section id="method" class="block">
+      <h2>일하는 방식</h2>
+      <ol class="steps">
+        <li><b>듣고 정리합니다</b><span>요청의 배경과 목표를 먼저 확인합니다.</span></li>
+        <li><b>함께 설계합니다</b><span>필요한 담당자가 모여 방향과 역할을 정합니다.</span></li>
+        <li><b>만들고 점검합니다</b><span>결과물을 기준에 맞춰 검수한 뒤 전달합니다.</span></li>
+      </ol>
+    </section>
+
+    <section id="contact" class="block">
+      <h2>문의</h2>
+      <p class="lead small">함께 하고 싶은 일이 있다면 편하게 연락 주세요.</p>
+      <p><a class="mail" href="mailto:contact@connectednine.com">contact@connectednine.com</a></p>
+      <p class="muted">소식은 <a class="ext" href="https://www.instagram.com/connectednine" rel="noopener">인스타그램 @connectednine</a> 에서 전합니다.</p>
     </section>
   </main>
 
   <footer>
     <span>© ConnectedNine</span>
-    <a href="https://connectednine.com" target="_blank" rel="noopener">connectednine.com</a>
   </footer>
-
-  <script>
-    (function () {
-      try {
-        var top = document.getElementById('top');
-        var onScroll = function () {
-          if (window.scrollY > 4) top.classList.add('scrolled');
-          else top.classList.remove('scrolled');
-        };
-        onScroll();
-        window.addEventListener('scroll', onScroll, { passive: true });
-      } catch (e) {}
-
-      try {
-        // Blocks render visible by default (see CSS). This only adds a
-        // one-time entrance animation for blocks that scroll into view
-        // after load — it never controls base visibility, so there is
-        // no risk of content staying hidden if the observer is slow,
-        // unsupported, or a tool captures the page before it fires.
-        var blocks = document.querySelectorAll('.svc-block');
-        var vh = window.innerHeight || document.documentElement.clientHeight;
-        if ('IntersectionObserver' in window) {
-          var io = new IntersectionObserver(function (entries) {
-            entries.forEach(function (entry) {
-              if (entry.isIntersecting) {
-                entry.target.classList.add('reveal');
-                io.unobserve(entry.target);
-              }
-            });
-          }, { threshold: 0.2 });
-          blocks.forEach(function (b) {
-            if (b.getBoundingClientRect().top >= vh) io.observe(b);
-          });
-        }
-      } catch (e) {}
-    })();
-  </script>
 </body>
 </html>
